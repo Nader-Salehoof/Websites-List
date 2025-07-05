@@ -1,0 +1,116 @@
+body{
+  height: 100vh;
+}
+
+header{
+  height: 10%;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  background-color: #8181ff;
+  line-height: 100px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 20px rgba(94, 94, 94, 0.4);
+}
+
+footer{
+  text-align: center;
+  font-size: 24px;
+  background-color: rgb(127, 255, 255);
+  margin-top: 70px;
+  height: 100px;
+  line-height: 100px;
+  box-shadow: 0 0 20px rgba(94, 94, 94, 0.4);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  word-spacing: -4px;
+}
+
+h3{
+  margin: 0;
+}
+
+.listSection {
+  text-align: center;
+}
+
+.listItemBase {
+  display: inline-block;
+  width: 90%;
+  margin-top: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(141, 141, 141, 0.2);
+}
+
+.internalList {
+  height: 100%;
+}
+
+.internalList .listItemInternal {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.listItemInternal h3{
+  margin-top: 10px;
+  /* margin-left: 10px; */
+}
+
+.progressBox{
+  word-spacing: 10px;
+  margin-left: 10px;
+}
+
+.listItemInternal b{
+  color: rgb(43, 43, 255);
+}
+
+.listItemInternal button{
+  width: 70%;
+  height: 30px;
+  background-color: #ffbe74;
+  border-radius: 100px;
+  vertical-align: middle;
+  color: #343434;
+}
+
+.boxShadow {
+  box-shadow: 5px 0 25px rgba(154, 154, 154, 0.3);
+}
+
+.star {
+  color: #ff7700;
+  font-size: 25px;
+}
+
+.lineHeight70{
+  line-height: 70px;
+}
+
+.wordSpacing3{
+  word-spacing: 3px;
+}
+
+.textAlignCenter{
+  text-align: center;
+}
+
+.verticalAlignMiddle{
+  vertical-align: middle;
+}
+
+.webLogo{
+    font-size: 16px;
+}
+
+@media (max-width : 700px) {
+  li{
+    width: 100% !important;
+  }
+}
