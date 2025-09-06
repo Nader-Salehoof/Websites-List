@@ -109,6 +109,7 @@ h3{
     font-size: 16px;
 }
 
+
 @media (max-width : 700px) {
   li{
     width: 100% !important;
